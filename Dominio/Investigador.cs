@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Proyecto
-{
+namespace Dominio
+{ 
     public class Investigador
     {
         private string _email;

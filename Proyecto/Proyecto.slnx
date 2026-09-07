@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../Dominio/Dominio.csproj" Id="dfb4b422-77e3-497c-8aa3-1b1e059ae9c9" />
   <Project Path="Proyecto.csproj" />
 </Solution>

@@ -1,34 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|c:\\users\\usuario\\source\\repos\\proyecto\\evidencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|solutionrelative:evidencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E3CF8E5-ADD9-A855-1CD9-CF4A3456AE65}|Proyecto.csproj|c:\\users\\usuario\\desktop\\proyectoprogramacion2\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E3CF8E5-ADD9-A855-1CD9-CF4A3456AE65}|Proyecto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|c:\\users\\usuario\\source\\repos\\proyecto\\sospechoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|solutionrelative:sospechoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB4B422-77E3-497C-8AA3-1B1E059AE9C9}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\desktop\\proyectoprogramacion2\\dominio\\investigador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|c:\\users\\usuario\\source\\repos\\proyecto\\caso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|solutionrelative:caso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB4B422-77E3-497C-8AA3-1B1E059AE9C9}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\desktop\\proyectoprogramacion2\\dominio\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|c:\\users\\usuario\\source\\repos\\proyecto\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|solutionrelative:sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\source\\repos\\Dominio\\Sospechoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|c:\\users\\usuario\\source\\repos\\proyecto\\investigador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|solutionrelative:investigador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB4B422-77E3-497C-8AA3-1B1E059AE9C9}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\desktop\\proyectoprogramacion2\\dominio\\caso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|c:\\users\\usuario\\source\\repos\\proyecto\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|solutionrelative:rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB4B422-77E3-497C-8AA3-1B1E059AE9C9}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\desktop\\proyectoprogramacion2\\dominio\\evidencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|c:\\users\\usuario\\source\\repos\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB4EF24-CCA7-4591-8F67-AA621C9097D3}|Proyecto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFB4B422-77E3-497C-8AA3-1B1E059AE9C9}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\desktop\\proyectoprogramacion2\\dominio\\sospechoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFB4B422-77E3-497C-8AA3-1B1E059AE9C9}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\desktop\\proyectoprogramacion2\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\source\\repos\\Dominio\\Rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\source\\repos\\Dominio\\Sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\source\\repos\\Dominio\\Investigador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\source\\repos\\Dominio\\Caso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\source\\repos\\Dominio\\Evidencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,94 +66,167 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sospechoso.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Sospechoso.cs",
-              "RelativeDocumentMoniker": "Sospechoso.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Sospechoso.cs",
-              "RelativeToolTip": "Sospechoso.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:58:46.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Caso.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Caso.cs",
-              "RelativeDocumentMoniker": "Caso.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Caso.cs",
-              "RelativeToolTip": "Caso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:58:14.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Sistema.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Sistema.cs",
-              "RelativeDocumentMoniker": "Sistema.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Sistema.cs",
-              "RelativeToolTip": "Sistema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:57:11.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Evidencia.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Evidencia.cs",
-              "RelativeDocumentMoniker": "Evidencia.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Evidencia.cs",
-              "RelativeToolTip": "Evidencia.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:56:11.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Rol.cs",
-              "RelativeDocumentMoniker": "Rol.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Rol.cs",
-              "RelativeToolTip": "Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Rol.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Rol.cs",
+              "RelativeToolTip": "..\\Dominio\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:34:40.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Investigador.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Investigador.cs",
-              "RelativeDocumentMoniker": "Investigador.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Investigador.cs",
-              "RelativeToolTip": "Investigador.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwBcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:11:40.382Z",
+              "WhenOpened": "2026-09-07T20:39:50.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Sospechoso.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Sospechoso.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Sospechoso.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Sospechoso.cs",
+              "RelativeToolTip": "..\\Dominio\\Sospechoso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:39:42.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sistema.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Sistema.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Sistema.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Sistema.cs",
+              "RelativeToolTip": "..\\Dominio\\Sistema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:39:38.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Investigador.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Investigador.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Investigador.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Investigador.cs",
+              "RelativeToolTip": "..\\Dominio\\Investigador.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:39:35.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Evidencia.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Evidencia.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Evidencia.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Evidencia.cs",
+              "RelativeToolTip": "..\\Dominio\\Evidencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:39:32.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Caso.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Caso.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Caso.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Dominio\\Caso.cs",
+              "RelativeToolTip": "..\\Dominio\\Caso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:39:22.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sospechoso.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Sospechoso.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Dominio\\Sospechoso.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Sospechoso.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Dominio\\Sospechoso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:29:10.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sistema.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Sistema.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Dominio\\Sistema.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Sistema.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Dominio\\Sistema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:29:08.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Investigador.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Investigador.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Dominio\\Investigador.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Investigador.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Dominio\\Investigador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:29:07.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Caso.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Caso.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Dominio\\Caso.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Caso.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Dominio\\Caso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:29:06.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Evidencia.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Evidencia.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Dominio\\Evidencia.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Evidencia.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Dominio\\Evidencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:29:05.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Proyecto\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Proyecto\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectoProgramacion2\\Proyecto\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-07T00:10:20.787Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Dominio\\Rol.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Dominio\\Rol.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Dominio\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:29:09.409Z"
             }
           ]
         }

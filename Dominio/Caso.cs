@@ -1,4 +1,4 @@
-﻿namespace Proyecto
+﻿namespace Dominio
 {
     public class Caso
     {
