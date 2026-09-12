@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Proyecto
+namespace Dominio
 {
     public class Sospechoso
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Proyecto
+namespace Dominio
 {
     public enum Rol
     {

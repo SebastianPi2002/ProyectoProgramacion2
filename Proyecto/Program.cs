@@ -1,4 +1,5 @@
-﻿namespace Proyecto
+﻿using Dominio;
+namespace Proyecto
 {
     internal class Program
     {
