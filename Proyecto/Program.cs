@@ -5,7 +5,9 @@ namespace Proyecto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Sistema sistema = new Sistema();
+
+            sistema.PrecargarDatos();
         }
     }
 }
