@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio
 {
-    public class Testimonio
+    public class Testimonio : Evidencia
     {
         private string _nombreTestigo;
         private Credibilidad _credibilidad;
@@ -17,5 +17,16 @@ namespace Dominio
         }
     
 
+     public Testimonio(
+        DateTime fecha,
+        string descripcion,
+        string nombreTestigo,
+        Credibilidad credibilidad
+    ) : base(fecha, descripcion)
+        {
+            _nombreTestigo = nombreTestigo;
+            _credibilidad = credibilidad;
         }
+
+    }
 }

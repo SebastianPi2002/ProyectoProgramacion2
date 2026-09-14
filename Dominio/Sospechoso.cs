@@ -4,14 +4,14 @@ namespace Dominio
 {
     public class Sospechoso
     {
-        
+
         private string _nombre;
         private string _cedula;
         private bool _antecedentes;
         private DateTime _fechaNacimiento;
 
 
-       
+
         public string Nombre
         {
             get { return _nombre; }
@@ -37,7 +37,7 @@ namespace Dominio
         }
 
 
-       
+
         public Sospechoso(
             string nombre,
             string cedula,

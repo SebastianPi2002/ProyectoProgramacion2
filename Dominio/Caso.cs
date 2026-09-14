@@ -69,5 +69,10 @@
 
             _evidencias = new List<Evidencia>();
         }
+
+        public void AltaEvidencia(Evidencia evidencia)
+        {
+            _evidencias.Add(evidencia);
+        }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio
 {
-    public class Fisica
+    public class Fisica : Evidencia
     {
         private bool _huellas;
 
@@ -14,5 +14,14 @@ namespace Dominio
             get { return _huellas; }
             set { _huellas = value; }
         }
+        public Fisica(
+            DateTime fecha,
+            string descripcion,
+            bool huellas
+        ) : base(fecha, descripcion)
+        {
+            _huellas = huellas;
+        }
+
+     }
     }
-}

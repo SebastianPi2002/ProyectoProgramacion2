@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dominio
 {
-    public class Grabacion
+    public class Grabacion : Evidencia
     {
         private int _calidad;
         private bool _infraganti;
@@ -23,7 +23,16 @@ namespace Dominio
             set { _infraganti= value; }
         }
 
-
+        public Grabacion(
+        DateTime fecha,
+        string descripcion,
+        int calidad,
+        bool infraganti
+    ) : base (fecha, descripcion)
+        {
+            _calidad = calidad;
+            _infraganti = infraganti;
+        }
 
     }
 
