@@ -3,6 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Proyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E3CF8E5-ADD9-A855-1CD9-CF4A3456AE65}|Proyecto.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E3CF8E5-ADD9-A855-1CD9-CF4A3456AE65}|Proyecto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\testimonio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\grabacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\investigador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -10,9 +23,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\sospechoso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,17 +38,7 @@
       "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\fisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\grabacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\testimonio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A751D9A4-45CC-4396-AF22-5F850DB6B7D6}|..\\Dominio\\Dominio.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\dominio\\caso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E3CF8E5-ADD9-A855-1CD9-CF4A3456AE65}|Proyecto.csproj|c:\\users\\gaston.borba\\documents\\github\\proyectoprogramacion2\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E3CF8E5-ADD9-A855-1CD9-CF4A3456AE65}|Proyecto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,15 +48,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Credibilidad.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Credibilidad.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Credibilidad.cs",
@@ -64,38 +60,35 @@
               "RelativeToolTip": "..\\Dominio\\Credibilidad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T11:36:08.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T11:36:08.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Testimonio.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Testimonio.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Testimonio.cs",
               "ToolTip": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Testimonio.cs",
               "RelativeToolTip": "..\\Dominio\\Testimonio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T11:32:11.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T11:32:11.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Grabacion.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Grabacion.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Grabacion.cs",
               "ToolTip": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Grabacion.cs",
               "RelativeToolTip": "..\\Dominio\\Grabacion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T11:31:17.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T11:31:17.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Fisica.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Fisica.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Fisica.cs",
@@ -103,12 +96,11 @@
               "RelativeToolTip": "..\\Dominio\\Fisica.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T11:29:41.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T11:29:41.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Evidencia.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Evidencia.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Evidencia.cs",
@@ -116,12 +108,11 @@
               "RelativeToolTip": "..\\Dominio\\Evidencia.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T11:28:32.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T11:28:32.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Proyecto.csproj",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Proyecto\\Proyecto.csproj",
               "RelativeDocumentMoniker": "Proyecto.csproj",
@@ -129,12 +120,11 @@
               "RelativeToolTip": "Proyecto.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-11T03:31:27.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T03:31:27.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Sospechoso.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Sospechoso.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Sospechoso.cs",
@@ -142,25 +132,24 @@
               "RelativeToolTip": "..\\Dominio\\Sospechoso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T03:28:55.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T03:28:55.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Sistema.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Sistema.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Sistema.cs",
               "ToolTip": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Sistema.cs",
               "RelativeToolTip": "..\\Dominio\\Sistema.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T03:28:50.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Rol.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Rol.cs",
@@ -168,12 +157,24 @@
               "RelativeToolTip": "..\\Dominio\\Rol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T03:28:41.72Z",
+              "WhenOpened": "2026-09-11T03:28:41.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Proyecto\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Proyecto\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T00:10:20.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Investigador.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Investigador.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Investigador.cs",
@@ -181,12 +182,11 @@
               "RelativeToolTip": "..\\Dominio\\Investigador.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA5wBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T03:28:34.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T03:28:34.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Caso.cs",
               "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Dominio\\Caso.cs",
               "RelativeDocumentMoniker": "..\\Dominio\\Caso.cs",
@@ -194,21 +194,7 @@
               "RelativeToolTip": "..\\Dominio\\Caso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T03:26:55.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Proyecto\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gaston.borba\\Documents\\GitHub\\ProyectoProgramacion2\\Proyecto\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T00:10:20.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-11T03:26:55.473Z"
             }
           ]
         }

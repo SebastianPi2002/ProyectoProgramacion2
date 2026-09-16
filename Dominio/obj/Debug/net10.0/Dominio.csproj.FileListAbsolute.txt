@@ -1,0 +1,13 @@
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\bin\Debug\net10.0\Dominio.deps.json
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\bin\Debug\net10.0\Dominio.dll
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\bin\Debug\net10.0\Dominio.pdb
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.AssemblyInfo.cs
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.sourcelink.json
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.dll
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\refint\Dominio.dll
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.pdb
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\ref\Dominio.dll
+C:\Users\gaston.borba\Documents\GitHub\ProyectoProgramacion2\Dominio\obj\Debug\net10.0\Dominio.csproj.Up2Date

@@ -75,6 +75,31 @@ namespace Dominio
             return null;
         }
 
+        // Devuelve todos los casos registrados.
+        public List<Caso> ObtenerCasos()
+        {
+            return _casos;
+        }
+
+        // Devuelve los casos del investigador cuyo email se recibe.
+        public List<Caso> ObtenerCasosPorEmail(string email)
+        {
+            List<Caso> resultado = new List<Caso>();
+
+            foreach (Caso caso in _casos)
+            {
+                // Se compara en minúsculas, igual que en BuscarInvestigador.
+                if (caso.Investigador.Email.ToLower() == email.ToLower())
+                {
+                    resultado.Add(caso);
+                }
+            }
+
+            return resultado;
+        }
+
+
+
 
         public void PrecargarDatos()
         {
