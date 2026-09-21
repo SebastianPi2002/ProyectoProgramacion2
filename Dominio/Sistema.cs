@@ -769,7 +769,30 @@ namespace Dominio
             caso10.AltaEvidencia(evidencia40);
         }
 
+        public void AltaSospechoso(string nombre, string cedula, bool antecedentes, DateTime fechaNacimiento)
+        {
+            Sospechoso sospechoso = new Sospechoso(nombre, cedula, antecedentes, fechaNacimiento);
+            _sospechosos.Add(sospechoso);
+        }
+
+        public List<Sospechoso> ObtenerSospechososConAntecedentes()
+        {
+            List<Sospechoso> sospechososConAntecedentes = new List<Sospechoso>();
+
+            foreach (Sospechoso sospechoso in _sospechosos)
+            {
+                if (sospechoso.Antecedentes)
+                {
+                    sospechososConAntecedentes.Add(sospechoso);
+                }
+            }
+
+            return sospechososConAntecedentes;
+        }
+
     }
+
+
     }
     
 
