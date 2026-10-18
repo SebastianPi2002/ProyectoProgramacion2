@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Dominio
 {
-    public enum Credibilidad
+    public interface IValidable
     {
-        Bajo,
-        Medio, 
-        Alto
+        void Validar();
     }
 }

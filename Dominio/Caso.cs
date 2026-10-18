@@ -1,6 +1,6 @@
 ﻿namespace Dominio
 {
-    public class Caso
+    public class Caso : IValidable
     {
         private static int s_ultimoId = 1;
 
@@ -70,9 +70,58 @@
             _evidencias = new List<Evidencia>();
         }
 
+        // Verifica que el caso tenga datos válidos,
+        // un sospechoso principal y un investigador
+        // cuyo rol sea DETECTIVE.
+
+        public void Validar() {
+            
+            if (string.IsNullOrEmpty(_nombre))
+            {
+                throw new Exception("El nombre no puede estar vacio");
+            }
+
+            if (string.IsNullOrEmpty(_descripcion))
+            {
+                throw new Exception("La descripcion no puede estar vacia");
+            }
+
+            if (_sospechosoPrincipal == null)
+            {
+                throw new Exception("Sospechoso no puede ser nulo");
+            }
+
+            if (_investigador == null)
+            {
+                throw new Exception("El investigador no puede ser nulo");
+            }
+
+            if (_investigador.Rol != Rol.DETECTIVE)
+            {
+                throw new Exception("El investigador del caso debe ser detective");
+            }
+
+        }
+
+        // Registra una evidencia luego de comprobar que no sea nula
+        // y validar sus datos.
+
         public void AltaEvidencia(Evidencia evidencia)
         {
+            if (evidencia == null)
+            {
+                throw new Exception("La evidencia no puede ser nula");
+            }
+
+            evidencia.Validar();
+
             _evidencias.Add(evidencia);
+        }
+
+
+        public override string ToString()
+        {
+            return $"Id: {_id} - Nombre: {_nombre}";
         }
     }
 }

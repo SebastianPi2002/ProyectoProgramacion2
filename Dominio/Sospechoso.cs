@@ -2,7 +2,7 @@
 
 namespace Dominio
 {
-    public class Sospechoso
+    public class Sospechoso : IValidable
     {
 
         private string _nombre;
@@ -53,7 +53,8 @@ namespace Dominio
         }
 
 
-        // Validaciones
+        // Valida que el nombre y la cédula del sospechoso no estén vacíos
+        // y que su fecha de nacimiento no sea posterior a la fecha actual.
         public void Validar()
         {
             if (string.IsNullOrEmpty(_nombre))

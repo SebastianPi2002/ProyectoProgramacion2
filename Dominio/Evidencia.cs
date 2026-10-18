@@ -2,7 +2,7 @@
 
 namespace Dominio
 {
-    public class Evidencia
+    public abstract class Evidencia : IValidable
     {
         
         private static int s_ultimoId = 1;
@@ -40,11 +40,11 @@ namespace Dominio
             _fecha = fecha;
             _descripcion = descripcion;
 
-            Validar();
         }
 
-
-        public void Validar()
+        // Comprueba que la evidencia tenga una descripción
+        // y que la fecha de recolección no sea futura.
+        public virtual void Validar()
         {
             if (_fecha > DateTime.Today)
             {

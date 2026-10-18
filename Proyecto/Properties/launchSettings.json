@@ -2,9 +2,6 @@
   "profiles": {
     "Proyecto": {
       "commandName": "Project"
-    },
-    "Container (Dockerfile)": {
-      "commandName": "Docker"
     }
   }
 }

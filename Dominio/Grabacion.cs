@@ -34,7 +34,24 @@ namespace Dominio
             _infraganti = infraganti;
         }
 
+
+
+
+        // Ejecuta las validaciones de la clase Evidencia
+        // y comprueba que la calidad de la grabación esté entre 1 y 5.
+
+        public override void Validar()
+        {
+
+            base.Validar();
+            if (_calidad < 1 || _calidad > 5 )
+            {
+                throw new Exception("La calidad de la grabación debe estar entre 1 y 5.");
+            }
+
+        }
     }
+
 
 
 }

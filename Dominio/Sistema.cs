@@ -17,8 +17,19 @@ namespace Dominio
             _sospechosos = new List<Sospechoso>();
         }
 
+        // Registra un investigador luego de validar sus datos.
+        // Verifica que no sea nulo y que no exista otro
+        // investigador registrado con el mismo email.
+
         public void AltaInvestigador(Investigador investigador)
         {
+            if (investigador == null)
+            {
+                throw new Exception("El investigador no puede ser nulo");
+            }
+
+            investigador.Validar();
+             
             if (BuscarInvestigador(investigador.Email) != null)
             {
                 throw new Exception("Ya existe un investigador con ese email.");
@@ -26,6 +37,10 @@ namespace Dominio
 
             _investigadores.Add(investigador);
         }
+
+        // Busca un investigador por su email, sin distinguir
+        // entre mayúsculas y minúsculas.
+        // Si no lo encuentra, devuelve null.
 
         private Investigador? BuscarInvestigador(string email)
         {
@@ -40,8 +55,19 @@ namespace Dominio
             return null;
         }
 
+        // Registra un sospechoso luego de validar sus datos
+        // y comprobar que no exista otro con la misma cédula.
+
         public void AltaSospechoso(Sospechoso sospechoso)
         {
+                
+            if (sospechoso == null)
+            {
+                throw new Exception("El sospechoso no puede ser nulo");
+            }
+
+            sospechoso.Validar();
+
             if (BuscarSospechoso(sospechoso.Cedula) != null)
             {
                 throw new Exception("Ya existe un sospechoso con esa cédula.");
@@ -50,17 +76,24 @@ namespace Dominio
             _sospechosos.Add(sospechoso);
         }
 
+        // Registra un caso luego de validar sus datos
+        // y comprobar que no sea nulo.
+
         public void AltaCaso(Caso caso)
         {
-            if (caso.Investigador.Rol != Rol.Detective)
+
+            if (caso == null)
             {
-                throw new Exception("El investigador asignado al caso debe ser DETECTIVE.");
+                throw new Exception("El caso no puede ser nulo");
             }
+
+            caso.Validar();
 
             _casos.Add(caso);
         }
 
-
+        // Busca un sospechoso por su cédula.
+        // Si no existe, devuelve null.
 
         private Sospechoso? BuscarSospechoso(string cedula)
         {
@@ -75,20 +108,24 @@ namespace Dominio
             return null;
         }
 
-        // Devuelve todos los casos registrados.
+        // Devuelve la lista de todos los casos registrados en el sistema.
         public List<Caso> ObtenerCasos()
         {
             return _casos;
         }
 
-        // Devuelve los casos del investigador cuyo email se recibe.
+
+        // Busca los casos asignados a un investigador mediante su email,
+        // sin distinguir entre mayúsculas y minúsculas.
+        // Devuelve una lista con los casos encontrados.
+
         public List<Caso> ObtenerCasosPorEmail(string email)
         {
             List<Caso> resultado = new List<Caso>();
 
             foreach (Caso caso in _casos)
             {
-                // Se compara en minúsculas, igual que en BuscarInvestigador.
+                
                 if (caso.Investigador.Email.ToLower() == email.ToLower())
                 {
                     resultado.Add(caso);
@@ -99,7 +136,8 @@ namespace Dominio
         }
 
 
-
+        // Precarga investigadores, sospechosos, casos y evidencias
+        // ficticias para permitir las pruebas del sistema.
 
         public void PrecargarDatos()
         {
@@ -111,7 +149,7 @@ namespace Dominio
                 "martin.silva@fiscalia.uy",
                 "Martin123",
                 "Martín Silva",
-                Rol.Detective
+                Rol.DETECTIVE
             );
             AltaInvestigador(investigador1);
 
@@ -119,7 +157,7 @@ namespace Dominio
                 "lucia.fernandez@fiscalia.uy",
                 "Lucia456",
                 "Lucía Fernández",
-                Rol.Detective
+                Rol.DETECTIVE
             );
             AltaInvestigador(investigador2);
 
@@ -127,7 +165,7 @@ namespace Dominio
                 "diego.rodriguez@fiscalia.uy",
                 "Diego789",
                 "Diego Rodríguez",
-                Rol.Detective
+                Rol.DETECTIVE
             );
             AltaInvestigador(investigador3);
 
@@ -135,7 +173,7 @@ namespace Dominio
                 "sofia.pereira@fiscalia.uy",
                 "Sofia321",
                 "Sofía Pereira",
-                Rol.Detective
+                Rol.DETECTIVE
             );
             AltaInvestigador(investigador4);
 
@@ -143,7 +181,7 @@ namespace Dominio
                 "nicolas.gomez@fiscalia.uy",
                 "Nico654",
                 "Nicolás Gómez",
-                Rol.Detective
+                Rol.DETECTIVE
             );
             AltaInvestigador(investigador5);
 
@@ -156,7 +194,7 @@ namespace Dominio
                 "valentina.lopez@fiscalia.uy",
                 "Vale123",
                 "Valentina López",
-                Rol.Fiscal
+                Rol.FISCAL
             );
             AltaInvestigador(investigador6);
 
@@ -164,7 +202,7 @@ namespace Dominio
                 "andres.martinez@fiscalia.uy",
                 "Andres456",
                 "Andrés Martínez",
-                Rol.Fiscal
+                Rol.FISCAL
             );
             AltaInvestigador(investigador7);
 
@@ -172,7 +210,7 @@ namespace Dominio
                 "camila.suarez@fiscalia.uy",
                 "Cami789",
                 "Camila Suárez",
-                Rol.Fiscal
+                Rol.FISCAL
             );
             AltaInvestigador(investigador8);
 
@@ -180,7 +218,7 @@ namespace Dominio
                 "federico.costa@fiscalia.uy",
                 "Fede321",
                 "Federico Costa",
-                Rol.Fiscal
+                Rol.FISCAL
             );
             AltaInvestigador(investigador9);
 
@@ -188,7 +226,7 @@ namespace Dominio
                 "paula.ramos@fiscalia.uy",
                 "Paula654",
                 "Paula Ramos",
-                Rol.Fiscal
+                Rol.FISCAL
             );
             AltaInvestigador(investigador10);
 
@@ -767,12 +805,6 @@ namespace Dominio
                 false
             );
             caso10.AltaEvidencia(evidencia40);
-        }
-
-        public void AltaSospechoso(string nombre, string cedula, bool antecedentes, DateTime fechaNacimiento)
-        {
-            Sospechoso sospechoso = new Sospechoso(nombre, cedula, antecedentes, fechaNacimiento);
-            _sospechosos.Add(sospechoso);
         }
 
         public List<Sospechoso> ObtenerSospechososConAntecedentes()

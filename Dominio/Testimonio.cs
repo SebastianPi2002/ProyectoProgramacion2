@@ -28,5 +28,18 @@ namespace Dominio
             _credibilidad = credibilidad;
         }
 
+
+        // Ejecuta las validaciones de la clase Evidencia
+        // y comprueba que el nombre del testigo no esté vacío.
+
+        public override void Validar()
+        {
+            base.Validar();
+
+            if (string.IsNullOrEmpty(_nombreTestigo))
+            {
+                throw new Exception("El nombre del testigo no puede estar vacío.");
+            }
+        }
     }
 }

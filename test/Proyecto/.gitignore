@@ -1,6 +1,0 @@
-# Archivos temporales de Visual Studio
-.vs/
-
-# Archivos generados al compilar
-bin/
-obj/

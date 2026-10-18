@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Dominio
 {
-    public class Investigador
+    public class Investigador : IValidable
     {
         private string _email;
         private string _contrasenia;
@@ -45,5 +45,32 @@ namespace Dominio
             _nombre = nombre;
             _rol = rol;
         }
+
+        // Comprueba que tenga un nombre, mail y contraseña
+        public void Validar()
+        {
+            if (string.IsNullOrEmpty(_nombre))
+            {
+                throw new Exception("El nombre no puede estar vacio"); 
+            }
+
+            if (string.IsNullOrEmpty(_email))
+            {
+                throw new Exception("El mail no puede estar vacio");
+            }
+
+            if (string.IsNullOrEmpty(_contrasenia))
+            {
+                throw new Exception("La contraseña no puede estar vacia");
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"Nombre: {_nombre} - Email: {_email} - " +
+                   $"Rol: {_rol}";
+        }
+
+
     }
 }
