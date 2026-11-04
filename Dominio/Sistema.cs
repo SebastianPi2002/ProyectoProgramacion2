@@ -230,7 +230,6 @@ namespace Dominio
             );
             AltaInvestigador(investigador10);
 
-        
 
             // ============
             // SOSPECHOSOS
@@ -823,6 +822,24 @@ namespace Dominio
             return sospechososConAntecedentes;
         }
 
+        public Investigador? IniciarSesion(string email, string contrasena)
+        {
+            if (string.IsNullOrWhiteSpace(email) ||
+                string.IsNullOrWhiteSpace(contrasena))
+            {
+                return null;
+            }
+
+            Investigador? investigador = BuscarInvestigador(email);
+
+            if (investigador != null &&
+                investigador.Contrasenia == contrasena)
+            {
+                return investigador;
+            }
+
+            return null;
+        }
     }
 
 

@@ -1,0 +1,28 @@
+﻿@model List<Dominio.Caso>
+
+@{
+    ViewData["Title"] = "Listado de casos";
+}
+
+<h1>Listado de casos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Investigador</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (Dominio.Caso caso in Model)
+        {
+            <tr>
+                <td>@caso.Nombre</td>
+                <td>@caso.Descripcion</td>
+                <td>@caso.Investigador.Nombre</td>
+            </tr>
+        }
+    </tbody>
+</table>

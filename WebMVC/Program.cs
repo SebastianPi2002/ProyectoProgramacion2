@@ -1,3 +1,5 @@
+using Dominio;
+
 namespace WebMVC
 {
     public class Program
@@ -6,25 +8,36 @@ namespace WebMVC
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Habilitamos los servicios de sesión.
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession();
+
+            // Creamos el sistema y cargamos los datos.
+            Sistema sistema = new Sistema();
+            sistema.PrecargarDatos();
+
+            builder.Services.AddSingleton<Sistema>(sistema);
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseRouting();
 
+            // Habilitamos las sesiones.
+            app.UseSession();
+
             app.UseAuthorization();
 
             app.MapStaticAssets();
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}")

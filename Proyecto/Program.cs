@@ -1,7 +1,6 @@
-﻿using Dominio;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using Dominio;
 
 namespace Proyecto
 {
@@ -24,7 +23,6 @@ namespace Proyecto
                 Console.WriteLine("2 - Buscar casos por email del investigador");
                 Console.WriteLine("3 - Hacer alta de un sospechoso");
                 Console.WriteLine("4 - Obtener sospechosos con antecedentes");
-                Console.WriteLine("5 - Hacer alta de un investigador");
                 Console.WriteLine("0 - Salir");
                 Console.Write("Ingrese una opción: ");
 
@@ -48,9 +46,6 @@ namespace Proyecto
                     case "4":
                         ObtenerSospechososConAntecedentes(sistema);
                         break;
-                    case "5":
-                        AltaInvestigador(sistema);
-                        break;
                     case "0":
                         Console.WriteLine("Programa finalizado.");
                         break;
@@ -69,48 +64,6 @@ namespace Proyecto
             foreach (Sospechoso sospechoso in sospechosos)
             {
                 Console.WriteLine(sospechoso);
-            }
-        }
-
-        static void AltaInvestigador(Sistema sistema)
-        {
-            try
-            {
-                Console.WriteLine("Ingrese el mail:");
-                string email = Console.ReadLine();
-
-
-                Console.WriteLine("Ingrese la contrasenia:");
-                string contrasenia = Console.ReadLine();
-
-                Console.WriteLine("Ingrese el nombre:");
-                string nombre = Console.ReadLine();
-
-                Console.WriteLine("¿Eres detective?");
-
-                string respuesta = Console.ReadLine();
-
-                Rol rol = Rol.FISCAL;
-
-                if (respuesta.ToUpper() == "S");
-                {
-                    rol = Rol.DETECTIVE;
-                }
-
-                Investigador investigador = new Investigador(
-                   email,
-                   contrasenia,
-                   nombre,
-                   rol
-                );
-
-                sistema.AltaInvestigador(investigador);
-
-                Console.WriteLine("Investigador ingresado correctamente.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
             }
         }
 
