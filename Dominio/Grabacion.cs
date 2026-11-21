@@ -50,6 +50,25 @@ namespace Dominio
             }
 
         }
+
+        // Calcula el peso de una grabación según sus características.
+
+        public override int CalcularPeso()
+        {
+            int peso = base.CalcularPeso();
+
+            if (_infraganti)
+            {
+                peso += 60;
+            }
+
+            if (_calidad >= 3)
+            {
+                peso += 10;
+            }
+
+            return peso;
+        }
     }
 
 

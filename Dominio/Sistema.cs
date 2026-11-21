@@ -6,11 +6,28 @@ namespace Dominio
 {
     public class Sistema
     {
+
+        // Mantiene una única instancia de Sistema para toda la aplicación.
+        private static Sistema? _instancia;
+
+        public static Sistema Instancia
+        {
+            get
+            {
+                if (_instancia == null)
+                {
+                    _instancia = new Sistema();
+                }
+
+                return _instancia;
+            }
+        }
+
         private List<Investigador> _investigadores;
         private List<Caso> _casos;
         private List<Sospechoso> _sospechosos;
 
-        public Sistema()
+        private Sistema()
         {
             _investigadores = new List<Investigador>();
             _casos = new List<Caso>();
@@ -42,7 +59,7 @@ namespace Dominio
         // entre mayúsculas y minúsculas.
         // Si no lo encuentra, devuelve null.
 
-        private Investigador? BuscarInvestigador(string email)
+        public Investigador? BuscarInvestigador(string email)
         {
             foreach (Investigador investigador in _investigadores)
             {
@@ -133,6 +150,48 @@ namespace Dominio
             }
 
             return resultado;
+        }
+
+
+        // Devuelve los investigadores que tienen rol DETECTIVE.
+
+        public List<Investigador> ObtenerDetectives()
+        {
+            List<Investigador> detectives = new List<Investigador>();
+
+            foreach (Investigador investigador in _investigadores)
+            {
+                if (investigador.Rol == Rol.DETECTIVE)
+                {
+                    detectives.Add(investigador);
+                }
+            }
+
+            return detectives;
+        }
+
+
+        // Devuelve la lista de sospechosos registrados.
+
+        public List<Sospechoso> ObtenerSospechosos()
+        {
+            return new List<Sospechoso>(_sospechosos);
+        }
+
+
+        // Busca un caso por su identificador y devuelve null si no existe.
+
+        public Caso? BuscarCaso(int id)
+        {
+            foreach (Caso caso in _casos)
+            {
+                if (caso.Id == id)
+                {
+                    return caso;
+                }
+            }
+
+            return null;
         }
 
 
@@ -807,6 +866,9 @@ namespace Dominio
             caso10.AltaEvidencia(evidencia40);
         }
 
+
+        // Devuelve los sospechosos que tienen antecedentes.
+
         public List<Sospechoso> ObtenerSospechososConAntecedentes()
         {
             List<Sospechoso> sospechososConAntecedentes = new List<Sospechoso>();
@@ -821,6 +883,33 @@ namespace Dominio
 
             return sospechososConAntecedentes;
         }
+
+
+        // Filtra los sospechosos cuya edad supera el valor indicado.
+
+        public List<Sospechoso> ObtenerSospechososPorEdad(int edadMinima)
+        {
+            if (edadMinima < 0)
+            {
+                throw new Exception("La edad mínima no puede ser negativa.");
+            }
+
+            List<Sospechoso> resultado = new List<Sospechoso>();
+
+            foreach (Sospechoso sospechoso in _sospechosos)
+            {
+                if (sospechoso.CalcularEdad() > edadMinima)
+                {
+                    resultado.Add(sospechoso);
+                }
+            }
+
+            return resultado;
+        }
+
+
+        // Valida las credenciales y devuelve el investigador correspondiente.
+        // Si las credenciales son incorrectas, devuelve null.
 
         public Investigador? IniciarSesion(string email, string contrasena)
         {

@@ -119,6 +119,58 @@
         }
 
 
+        // Calcula el peso total de las evidencias asociadas al caso.
+
+        public int CalcularPesoTotal()
+        {
+            int pesoTotal = 0;
+
+            foreach (Evidencia evidencia in _evidencias)
+            {
+                pesoTotal += evidencia.CalcularPeso();
+            }
+
+            if (_sospechosoPrincipal.Antecedentes)
+            {
+                pesoTotal += 10;
+            }
+
+            if (pesoTotal > 100)
+            {
+                pesoTotal = 100;
+            }
+
+            return pesoTotal;
+        }
+
+
+        // Genera la recomendación de acusación según las condiciones del caso.
+        public string GenerarRecomendacion()
+        {
+            int peso = CalcularPesoTotal();
+
+            if (peso < 30)
+            {
+                return $"DESESTIMADO: El caso {_nombre} carece de fundamentos. " +
+                       $"El peso de la prueba es {peso} y debería ser desestimado.";
+            }
+
+            if (peso <= 70)
+            {
+                return $"CONTINUAR INVESTIGANDO: El caso {_nombre} " +
+                       $"necesita más investigación. El peso de la prueba es {peso}.";
+            }
+
+            return $"IMPUTACIÓN INMINENTE: El caso {_nombre} " +
+                   $"tiene un peso de prueba de {peso} y se recomienda imputar " +
+                   $"a {_sospechosoPrincipal.Nombre}.";
+        }
+
+
+      
+
+     
+
         public override string ToString()
         {
             return $"Id: {_id} - Nombre: {_nombre}";

@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+using System;
 
 namespace Dominio
 {
@@ -10,10 +9,10 @@ namespace Dominio
 
         public bool Huellas
         {
-
             get { return _huellas; }
             set { _huellas = value; }
         }
+
         public Fisica(
             DateTime fecha,
             string descripcion,
@@ -23,5 +22,18 @@ namespace Dominio
             _huellas = huellas;
         }
 
-     }
+
+        // Calcula el peso correspondiente a una evidencia física.
+        public override int CalcularPeso()
+        {
+            int peso = base.CalcularPeso();
+
+            if (_huellas)
+            {
+                peso += 40;
+            }
+
+            return peso;
+        }
     }
+}

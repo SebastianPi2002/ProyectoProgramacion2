@@ -5,12 +5,8 @@ namespace WebMVC.Controllers
 {
     public class LoginController : Controller
     {
-        private Sistema _sistema;
-
-        public LoginController(Sistema sistema)
-        {
-            _sistema = sistema;
-        }
+        // Instancia compartida del sistema.
+        private Sistema _sistema = Sistema.Instancia;
 
         // Muestra el formulario de login.
         [HttpGet]
@@ -46,6 +42,44 @@ namespace WebMVC.Controllers
 
             return RedirectToAction("Index", "Home");
         }
+
+
+        [HttpGet]
+
+        // Muestra el formulario de registro de investigadores.
+        public IActionResult Registro()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        // Registra un nuevo detective e inicia su sesión automáticamente.
+        public IActionResult Registro(Investigador investigador)
+        {
+            try
+            {
+                investigador.Rol = Rol.DETECTIVE;
+
+                _sistema.AltaInvestigador(investigador);
+
+                HttpContext.Session.SetString(
+                    "Email", investigador.Email);
+
+                HttpContext.Session.SetString(
+                    "Rol", investigador.Rol.ToString());
+
+                return RedirectToAction("Index", "Home");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+                return View(investigador);
+            }
+        }
+
 
         // Cierra la sesión del investigador.
         [HttpPost]

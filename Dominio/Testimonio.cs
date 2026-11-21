@@ -41,5 +41,21 @@ namespace Dominio
                 throw new Exception("El nombre del testigo no puede estar vacío.");
             }
         }
+
+
+        // Calcula el peso de un testimonio según su credibilidad.
+
+        public override int CalcularPeso()
+        {
+            int peso = base.CalcularPeso();
+
+            if (_credibilidad == Credibilidad.Medio ||
+                _credibilidad == Credibilidad.Alto)
+            {
+                peso += 10;
+            }
+
+            return peso;
+        }
     }
 }

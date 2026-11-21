@@ -14,11 +14,8 @@ namespace WebMVC
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddSession();
 
-            // Creamos el sistema y cargamos los datos.
-            Sistema sistema = new Sistema();
-            sistema.PrecargarDatos();
-
-            builder.Services.AddSingleton<Sistema>(sistema);
+            // Precarga los datos en la única instancia del sistema.
+            Sistema.Instancia.PrecargarDatos();
 
             var app = builder.Build();
 

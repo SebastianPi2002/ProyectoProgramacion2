@@ -79,8 +79,24 @@ namespace Dominio
             }
         }
 
+        // Calcula la edad del sospechoso a partir de su fecha de nacimiento.
 
-       
+        public int CalcularEdad()
+        {
+            DateTime hoy = DateTime.Today;
+
+            int edad = hoy.Year - _fechaNacimiento.Year;
+
+            if (hoy < _fechaNacimiento.AddYears(edad))
+            {
+                edad--;
+            }
+
+            return edad;
+        }
+
+
+
         public override string ToString()
         {
             return $"Nombre: {_nombre} - Cédula: {_cedula} - " +

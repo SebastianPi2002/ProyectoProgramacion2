@@ -62,6 +62,18 @@ namespace Dominio
         }
 
 
+        // Define el cálculo del peso de una evidencia.
+        public virtual int CalcularPeso()
+        {
+            if (_fecha > DateTime.Today.AddMonths(-6))
+            {
+                return 5;
+            }
+
+            return 3;
+        }
+
+
         public override string ToString()
         {
             return $"Id: {_id} - Descripción: {_descripcion}";

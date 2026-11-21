@@ -34,6 +34,10 @@ namespace Dominio
             set { _rol = value; }
         }
 
+        public Investigador()
+        {
+        }
+
         public Investigador(
             string email,
             string contrasenia,

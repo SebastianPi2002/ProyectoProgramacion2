@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "Crear caso";
+}
+
+<h2>Crear nuevo caso</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+<form asp-controller="Casos"
+      asp-action="Crear"
+      method="post">
+
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label class="form-label">Nombre del caso</label>
+        <input type="text"
+               name="nombre"
+               class="form-control"
+               required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Descripción</label>
+        <textarea name="descripcion"
+                  class="form-control"
+                  required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Detective asignado</label>
+        <select name="emailDetective"
+                asp-items="ViewBag.Detectives"
+                class="form-select"
+                required>
+            <option value="">Seleccione un detective</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Sospechoso principal</label>
+        <select name="cedulaSospechoso"
+                asp-items="ViewBag.Sospechosos"
+                class="form-select"
+                required>
+            <option value="">Seleccione un sospechoso</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Guardar caso
+    </button>
+
+    <a asp-controller="Casos"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Cancelar
+    </a>
+
+</form>

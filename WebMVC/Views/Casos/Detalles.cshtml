@@ -1,0 +1,114 @@
+﻿
+@model Dominio.Caso
+
+@{
+    ViewData["Title"] = "Detalles del caso";
+}
+
+<h2>Detalles del caso</h2>
+
+<div class="card mb-4">
+    <div class="card-body">
+
+        <h4>@Model.Nombre</h4>
+
+        <hr />
+
+        <p><strong>ID:</strong> @Model.Id</p>
+
+        <p>
+            <strong>Descripción:</strong>
+            @Model.Descripcion
+        </p>
+
+        <p>
+            <strong>Estado:</strong>
+            @(Model.Cerrado ? "Cerrado" : "Abierto")
+        </p>
+
+        <p>
+            <strong>Detective asignado:</strong>
+            @Model.Investigador.Nombre
+        </p>
+
+        <p>
+            <strong>Sospechoso principal:</strong>
+            @Model.SospechosoPrincipal.Nombre
+        </p>
+
+    </div>
+</div>
+
+<h3>Evidencias del caso</h3>
+
+@if (Model.Evidencias.Count == 0)
+{
+    <div class="alert alert-info">
+        Este caso no tiene evidencias registradas.
+    </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Fecha</th>
+                <th>Tipo</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (Dominio.Evidencia evidencia in Model.Evidencias)
+            {
+                <tr>
+                    <td>@evidencia.Id</td>
+                    <td>@evidencia.Fecha.ToShortDateString()</td>
+                    <td>@evidencia.GetType().Name</td>
+                    <td>@evidencia.Descripcion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (Context.Session.GetString("Rol") == "FISCAL")
+{
+    <div class="card mt-4 mb-4">
+        <div class="card-body">
+
+            <h4>Recomendación de imputación</h4>
+
+            <hr />
+
+            <p>
+                <strong>Peso total de la prueba:</strong>
+                @Model.CalcularPesoTotal() / 100
+            </p>
+
+            <p>
+                @Model.GenerarRecomendacion()
+            </p>
+
+        </div>
+    </div>
+}
+
+@if (Context.Session.GetString("Rol") == "FISCAL")
+{
+    <a asp-controller="Casos"
+       asp-action="Index"
+       class="btn btn-secondary">
+        Volver a casos
+    </a>
+}
+else
+{
+    <a asp-controller="Casos"
+       asp-action="MisCasos"
+       class="btn btn-secondary">
+        Volver a mis casos
+    </a>
+}
+
